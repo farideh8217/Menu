@@ -1,0 +1,24 @@
+ul{
+    background-color: #333;
+    padding: 5px;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+    float:left;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding:14px 10px;
+    font-size: 21px;
+    border-radius: 20px;
+    transition: 0.3s;
+    display: block; /*******baes mishavad kamelan border radius neshan dade shavad***********/
+}
+ul li a:hover{
+    background-color: deeppink;
+}
+ul li a i{
+    font-size: 14px;
+}
